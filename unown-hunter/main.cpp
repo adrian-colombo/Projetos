@@ -87,7 +87,7 @@ main (){
     "Miracle Seed","Mystic Water","NeverMelt Ice","Poison Barb","Sharp Beak","Silk Scarf","Silver Powder","Soft Sand","Spell Tag","Twisted Spoon","Mystic Crown",
     "Pulse Bracelet","Explosive Stone","Sharp Claws","Punching Glove","Blunder Policy","Eject Pack","HeavyDuty Boots","Room Service","Throat Spray","Utility Umbrella",
     "Soothe Bell","Feather Fan","Slingshot","Poisonous Needle","Ectoplasm Gloves","Everstone","Wildfire Mask","Mimikyu Fantasy","Cosplay Fantasy","Microfone","Grill Teeth",
-    "Shin Guard","Cotton Flower","Plague Mask","Majoras Mask","Icy Seed","Baby Seed","Booster Energy","Ability Shield","Clear Amulet","Mirror Herb","Covert Cloak","Loaded Dice",
+    "Shin Guard","Cotton Flower","Plague Mask","Majoras Mask","Icy Seed","Baby Seed","Booster Energy","Ability Shield","Clear Amulet","Mirror Herb","Covert Cloak","Loaded Dice", "Exp Share",
 
     /* Diversos */
     "Honey","Isco Caterpie","Isco Krabby","Isco Poliwag","Isco Slowpoke Tail","Isco Tropical","Isco Eletrico","Isco Profundo","Isco Alto Mar","Isco Escama Dragao","Wool",
