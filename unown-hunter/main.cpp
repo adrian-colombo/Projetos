@@ -131,7 +131,7 @@ do{
 	}
 
 system ("cls");
-cout << "Itens possíveis: ";
+cout << "Parabéns, você pode escolher um dos seguintes itens: ";
 
 //	Procura item
 	for (i=0;i<qntItem;i++){
@@ -164,6 +164,8 @@ cout << "Itens possíveis: ";
 }
 			
 	}
+	
+	cout << "\n\n\nScript feito por AC/Lauts <3";
 	
 		}
 	
