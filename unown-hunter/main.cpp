@@ -87,7 +87,7 @@ main (){
     "Miracle Seed","Mystic Water","NeverMelt Ice","Poison Barb","Sharp Beak","Silk Scarf","Silver Powder","Soft Sand","Spell Tag","Twisted Spoon","Mystic Crown",
     "Pulse Bracelet","Explosive Stone","Sharp Claws","Punching Glove","Blunder Policy","Eject Pack","HeavyDuty Boots","Room Service","Throat Spray","Utility Umbrella",
     "Soothe Bell","Feather Fan","Slingshot","Poisonous Needle","Ectoplasm Gloves","Everstone","Wildfire Mask","Mimikyu Fantasy","Cosplay Fantasy","Microfone","Grill Teeth",
-    "Shin Guard","Cotton Flower","Plague Mask","Majoras Mask","Icy Seed","Baby Seed","Booster Energy","Ability Shield","Clear Amulet","Mirror Herb","Covert Cloak","Loaded Dice", "Exp Share",
+    "Shin Guard","Cotton Flower","Plague Mask","Majoras Mask","Icy Seed","Baby Seed","Booster Energy","Ability Shield","Clear Amulet","Mirror Herb","Covert Cloak","Loaded Dice",
 
     /* Diversos */
     "Honey","Isco Caterpie","Isco Krabby","Isco Poliwag","Isco Slowpoke Tail","Isco Tropical","Isco Eletrico","Isco Profundo","Isco Alto Mar","Isco Escama Dragao","Wool",
@@ -106,7 +106,36 @@ main (){
     "Shiny Ball","Shifter Ball","Jolt Ball","Galvic Ball","Grassy Ball","Misty Ball","Mind Ball","Dusk Ball","Dawn Ball","Lure Ball","Nest Ball","Quick Ball","Fast Ball",
     "Exotic Ball","Repeat Ball","Timer Ball","Heavy Ball","Lite Ball","Level Ball","Love Ball","Pride Ball","Frozen Ball","Gritt Ball","Rain Ball","Heat Ball","Honey Ball",
     "Miner Ball","Snare Ball","EvoStone Ball","Dyna Ball","Beast Ball","Dream Ball","Shadow Ball","Purity Ball","Type Ball","Gea Ball","Pyro Ball","Aero Ball","Aqua Ball",
-    "Dive Ball","Net Ball","Navi Ball","Magnet Ball","Future Ball","Melody Ball","Spirit Ball","Aura Ball","Aura Ball","Egg Ball","Odd Ball","Feather Ball","Heavy Ball"
+    "Dive Ball","Net Ball","Navi Ball","Magnet Ball","Future Ball","Melody Ball","Spirit Ball","Aura Ball","Aura Ball","Egg Ball","Odd Ball","Feather Ball","Heavy Ball",
+    
+	/* TMs */
+	"TM Work Up","TM Roar","TM Protect","TM Safeguard","TM Double Team","TM Attract","TM Swagger","TM Sleep Talk","TM Substitute","TM Confide","TM Helping Hand","TM Scary Face",
+	"TM Screech","TM Baton Pass","TM Encore","TM Endure","TM Focus Energy","TM Metronome","TM Block","TM Heal Bell","TM Recycle","TM After You","TM Laser Focus","TM Pain Split",
+	"TM Frustration","TM Return","TM Round","TM Echoed Voice","TM False Swipe","TM Snore","TM Swift","TM Covet","TM Hidden Power","TM Nature Power","TM Pay Day","TM Mega Punch",
+	"TM Retaliate","TM Tail Swap","TM Weather Ball","TM Body Slam","TM Hyper Voice","TM Tri Attack","TM Uproar","TM Bind","TM Endeavor","TM Super Fang","TM Terrain Pulse",
+	"TM Hyper Beam","TM Facade","TM Mega Kick","TM Trash","TM Self-Destruct","TM Last Resort","TM Bulk Up","TM Coaching","TM Low Sweep","TM Revenge","TM Drain Punch","TM Brick Break",
+	"TM Aura Sphere","TM Body Press","TM Low Kick","TM Reversal","TM Focus Blast","TM Close Combat","TM Superpower","TM Focus Punch","TM Roost","TM Tailwind","TM Aerial Ace",
+	"TM Air Slash","TM Bounce","TM Dual Wingbeat","TM Brave Bird","TM Hurricane","TM Sky Attack","TM Toxic","TM Toxic Spikes","TM Venom Drench","TM Gastro Acid","TM Corrosive Gas",
+	"TM Sludge","TM Sludge Wave","TM Cross Poison","TM Sludge Bomb","TM Venoshock","TM Gunk Shot","TM Spikes","TM Sandstorm","TM Mud Shot","TM Sand Tomb","TM Drill Run","TM Earth Power",
+	"TM High Horsepower","TM Scorching Sands","TM Earthquake","TM Stomping Tantrum","TM Infestation","TM Bug Bite","TM Bug Bite","TM X Scissor","TM UTurn","TM Bug Buzz","TM Pollen Puff",
+	"TM Signal Beam","TM Skitter Smack","TM Mega Horn","TM Sandstorm","TM Rock Polish","TM Stealth Rock","TM Smack Down","TM Rock Tomb","TM Rock Slide","TM Rock Blast","TM Stone Edge",
+	"TM Meteor Beam","TM Spite","TM Shadow Ball","TM Phantom Force","TM Hex","TM Poltergeist","TM Iron Defense","TM Steel Wing", "TM Flash Cannon","TM Heavy Slam","TM Iron Head",
+	"TM Iron Tail","TM Steel Beam","TM Steel Roller","TM Sunny Day","TM Flame Charge","TM Fire Fang","TM Flamethrower","TM Fire Punch","TM Fire Spin","TM Mystical Fire",
+	"TM Blaze Kick","TM Heat Crash","TM Heat Wave","TM Burning Jealousy","TM Fire Blast","TM Overheat","TM Fire Blast","TM Flare Blitz","TM Rain Dance","TM Brine","TM Water Pulse",
+	"TM Flip Turn","TM Scald","TM Razor Shell","TM Liquidation","TM Muddy Water","TM Aqua Tail","TM Hydro Pump","TM Grassy Terrain","TM Worry Seed","TM Synthesis","TM Bullet Seed",
+	"TM Magical Leaf","TM Energy Ball","TM Grass Knot","TM Giga Drain","TM Leaf Blade","TM Grassy Glide","TM Solar Beam","TM Solar Blade","TM Leaf Storm","TM Power Whip","TM Seed Bomb",
+	"TM Eerie Impulse","TM Electric Terrain","TM Magnet Rise","TM Eletroweb","TM Thunder Fang","TM Shock Wave","TM Thunderbolt","TM Wild Charge","TM Thunder Punch","TM Electro Ball",
+	"TM Thunder","TM Rising Voltage","TM Calm Mind","TM Light Screen","TM Reflect","TM Rest","TM Trick Room","TM Guard Swap","TM Imprison","TM Magic Room","TM Misty Terrain",
+	"TM Power Swap","TM Skill Swap","TM Psychic Terrain","TM Speed Swap","TM Wonder Room","TM Agility","TM Ally Switch","TM Amnesia","TM Cosmic Power","TM Trick","TM Gravity",
+	"TM Role Play","TM Telekinesis","TM Magic Coat","TM Stored Power","TM Psyshock","TM Psychic","TM Psycho Cut","TM Psychic Fangs","TM Zen Headbutt","TM Expanding Force",
+	"TM Dream Eater","TM Future Sight","TM Snowstorm","TM Icy Terrain","TM Avalanche","TM Ice Fang","TM Icy Wind","TM Ice Beam","TM Ice Punch","TM Icicle Spear","TM Triple Axel",
+	"TM Blizzard","TM Breaking Swipe","TM Dragon Dance","TM Dragon Claw","TM Dragon Pulse","TM Dual Chop","TM Scale Shot","TM Outrage","TM Draco Meteor","TM Taunt","TM Fake Tears",
+	"TM Torment","TM Nasty Plot","TM Snatch","TM Thief","TM Fling","TM Assurance","TM Snarl","TM Knock Off","TM Dark Pulse","TM Beat Up","TM Crunch","TM Darkest Lariat",
+	"TM Foul Play","TM Throat Chop","TM Lash Out","TM Charm","TM Dazzling Gleam","TM Draining Kiss","TM Play Rough","TM Misty Explosion","TM Swords Dance","TM Sky Drop","TM WillOWisp",
+	"TM Thunder Wave","TM Gyro Ball","TM Hone Claws","TM Sky Drop","TM Acrobatics","TM Embargo","TM Payback","TM Giga Impact","TM Volt Switch","TM Struggle Bug","TM Psych Up","TM Bulldoze",
+	"TM Frost Breath","TM Dragon Tail","TM Infestation","TM Poison Jab","Power Up Punch"
+
+    };
     };
 					
 	string itemAux[] = { };
