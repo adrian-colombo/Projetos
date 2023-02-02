@@ -136,7 +136,6 @@ main (){
 	"TM Frost Breath","TM Dragon Tail","TM Infestation","TM Poison Jab","Power Up Punch"
 
     };
-    };
 					
 	string itemAux[] = { };
 	int i=0,j=0,k=0,qntItem, qntLetras, qntLetrasItem, contaLetras;
