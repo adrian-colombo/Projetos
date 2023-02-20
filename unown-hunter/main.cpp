@@ -9,6 +9,8 @@
 	
 #include <iostream>
 #include <locale.h>
+#include <algorithm> // Para std::count_if
+#include <cctype>    // Para std::isspace
 #include <string>
 #include <cstring>
 
@@ -138,7 +140,7 @@ main (){
     };
 					
 	string itemAux[] = { };
-	int i=0,j=0,k=0,qntItem, qntLetras, qntLetrasItem, contaLetras;
+	int i=0,j=0,k=0,z=0,qntItem, qntLetras, qntLetrasItem, contaLetras, contaCaracteresEspeciais, qntLetrasRestantes;
 
 //	Número de itens existentes cadastrados
 	qntItem = sizeof(item) / sizeof(string);
@@ -165,19 +167,33 @@ cout << "Parabéns, você pode escolher um dos seguintes itens: ";
 	for (i=0;i<qntItem;i++){
 		int n = item[i].length();
  		char nomeItemArray[n + 1], nomeItemArrayAux[n + 1];
+ 		contaCaracteresEspeciais = 0;
  	
  		strcpy(nomeItemArray, item[i].c_str());
  		copy (letras, letras+qntLetras, letrasAux);
 
-	for (k=0;k<qntLetras;k++){												// Array das Letras Digitadas pelo Usuário
+	for (k=0;k<qntLetras;k++){
+				if (letrasAux[k] == '?'){
+				contaCaracteresEspeciais++;
+			}												// Array das Letras Digitadas pelo Usuário
 		for (j=0;j<n;j++){													// Array das Letras dos Itens
 			if (toupper(letrasAux[k]) == toupper(nomeItemArray[j])){
 				nomeItemArray[j] = ' ';
 				letrasAux[k] = ' ';
-			} 
+			}
 		}
 	}
+
+		qntLetrasRestantes = n;
+		char nomeItemArrayCE[n+1];
+		strcpy(nomeItemArrayCE, nomeItemArray);
 		
+		
+		    for(z = 0; z < strlen(nomeItemArrayCE); z++){
+        if(nomeItemArrayCE[z] == ' '){
+            qntLetrasRestantes--;  
+        }  
+    }
  		contaLetras = 0;
 				for (j=0;j<n;j++){											// Verifica se encontrou todos os números
 					if (nomeItemArray[j] == ' '){
@@ -186,10 +202,15 @@ cout << "Parabéns, você pode escolher um dos seguintes itens: ";
 					continue;
 				}
 				
-				if (contaLetras == n){
-				cout << "\n- " << item[i];
-				}
+				
+				
 }
+
+if (contaLetras == n){
+				cout << "\n- " << item[i];
+				} else if (qntLetrasRestantes <= contaCaracteresEspeciais){
+					cout << "\n- " << item[i];
+				}
 			
 	}
 	
